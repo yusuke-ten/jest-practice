@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "strict": true,
     "target": "es5",
     "lib": ["dom", "esnext"],
@@ -19,6 +20,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "setupTests.js"],
   "include": ["**/*.ts", "**/*.tsx"]
 }
